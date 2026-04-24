@@ -8,7 +8,7 @@ sns.set_theme(style="whitegrid")
 
 # 1. Load and Inspect Data
 # Loading the World Energy dataset
-df = pd.read_csv('D:/Master/Semester 2/KQC7016 DATA ANALYTICS/WorldEnergy.csv')
+df = pd.read_csv('WorldEnergy.csv')
 
 print("--- Dataset Overview ---")
 print(f"Total Records: {df.shape[0]}")
